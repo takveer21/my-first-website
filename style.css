@@ -1,5 +1,7 @@
 body{
     font-family: 'Pacifico', cursive;
+    margin: 0%;
+    padding: 0%;
     
 }
 .header-text{
@@ -10,14 +12,36 @@ span{
 }
 .half-width{
     width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
 }
 .half-width h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 a{
     text-decoration: none;
-    background-color: orange;
+    background-image: linear-gradient(45deg, orange, tomato);
     padding: 10px 20px;
     border-radius: 5px;
     color: aliceblue;
+    font-weight: 400px;
+}
+.top-banner{
+    margin-bottom: 2%;
+    padding-bottom:2%;
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+
+}
+.dream{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
